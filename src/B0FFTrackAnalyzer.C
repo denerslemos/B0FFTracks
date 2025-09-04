@@ -75,7 +75,7 @@ void B0FFTrackAnalyzer(TString InputFileList, TString OutputFile, bool DoMixing)
 		
 		// Tracks start here
 		// Find matching reco and gen for fake rate
-        vector<bool> isMatched(TrkRecoPx->GetSize(), true);  
+        vector<bool> isMatched(TrkRecoPx->GetSize(), false);  
         vector<int> numRecperGen(TrkMCGenPx->GetSize(), 0);
 
         for(size_t iassoc = 0; iassoc < AssTSCPWgt->GetSize(); iassoc++){
