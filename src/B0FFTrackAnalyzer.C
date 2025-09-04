@@ -1,3 +1,12 @@
+/*
+
+Simple analysis code for tracks at B0 far-forward detector	 
+
+Author: Dener De Souza Lemos
+
+Last update: Sept 4th 2025
+
+*/
 #include "B0FFTrackTreeReader.h"  // call tree reader
 #include "B0FFTrackHistogramDefinition.h" // call for histograms
 #include "B0FFTrackFunctions.h" // call functions
